@@ -18,7 +18,7 @@ public class MaxHeight {
 		return 0;
 		else {
 			int l=maxheight(node.left);
-			int r=maxheight(node.left);
+			int r=maxheight(node.right);
 			if(l>r)
 				return (l+1);
 				else 
